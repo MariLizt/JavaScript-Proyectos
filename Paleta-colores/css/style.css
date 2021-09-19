@@ -30,3 +30,15 @@ h2 {
 .color-div {
   text-align: center;
 }
+
+li {
+  list-style-type: none;
+  width: 12%;
+  font-size: 1.3rem;
+  text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000,
+    1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+  color: #fff;
+  margin: 5px;
+  padding: 5px;
+  display: inline-block;
+}

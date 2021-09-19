@@ -4,3 +4,5 @@ setColor();
 
 color.addEventListener("input", setColor);
 color.addEventListener("change", () => saveColor(color.value));
+
+boton.addEventListener("click", listColors);

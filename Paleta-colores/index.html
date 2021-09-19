@@ -15,10 +15,13 @@
     />
 
     <!-- <script src="./js/src/setColor.js"></script>
-    <script src="./js/src/saveColor.js"></script> -->
+    <script src="./js/src/saveColor.js"></script>
+    <script src="./js/src/listColor.js"></script> -->
 
     <script src="./js/build/setColor.bundle.js"></script>
     <script src="./js/build/saveColor.bundle.js"></script>
+    -->
+    <script src="./js/build/listColor.bundler.js"></script>
   </head>
   <body>
     <h2>Paleta de Colores</h2>
@@ -26,7 +29,13 @@
 
     <div class="color-div">
       <input type="color" id="color" value="#ffffff" />
+      <button type="button" id="button-save-color">Save Color</button>
     </div>
+    <div>
+      <h2>Colores guardados: <span id="colors">0</span></h2>
+      <ul id="list"></ul>
+    </div>
+
     <!-- <script src="./js/src/variables.js"></script>
     <script src="./js/src/color.js"></script> -->
 

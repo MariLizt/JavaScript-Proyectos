@@ -12,3 +12,4 @@ color.addEventListener("change", function () {
 
   return saveColor(color.value);
 }.bind(void 0));
+boton.addEventListener("click", listColors);
